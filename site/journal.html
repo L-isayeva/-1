@@ -1,50 +1,141 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Журнал — Лаборатория успеха</title>
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаборатория успеха - Журнал</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <div class="header-wrap">
-      <div class="logo-title">Журнал проекта</div>
-      <div class="subtitle">Ход выполнения работы</div>
-      <nav>
-        <a href="index.html">Главная</a>
-        <a href="about.html">О проекте</a>
-        <a href="participant.html">Участник</a>
-        <a href="journal.html">Журнал</a>
-        <a href="resources.html">Ресурсы</a>
-        <a href="partner.html">Заказчик</a>
-        <a href="variable.html">Вариативная часть</a>
-      </nav>
-    </div>
-  </header>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>🎮 Лаборатория успеха</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О проекте</a></li>
+                <li><a href="participant.html">Участники</a></li>
+                <li><a href="journal.html">Журнал</a></li>
+                <li><a href="resources.html">Ресурсы</a></li>
+                <li><a href="partner.html">Заказчик</a></li>
+                <li><a href="variable.html">Вариативная часть</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main class="container">
-    <section class="grid-3">
-      <div class="card">
-        <div class="badge">Этап 1</div>
-        <h3>Изучение задания</h3>
-        <p>Были изучены требования к проектной практике, структура репозитория и шаблон итогового отчёта.</p>
-      </div>
-      <div class="card">
-        <div class="badge">Этап 2</div>
-        <h3>Подготовка материалов</h3>
-        <p>Были проанализированы паспорт проекта и отчёт по проектной деятельности, уточнены цели, задачи и результаты проекта.</p>
-      </div>
-      <div class="card">
-        <div class="badge">Этап 3</div>
-        <h3>Создание сайта</h3>
-        <p>Были созданы страницы сайта, оформлены стили и подготовлены разделы по проекту, заказчику и вариативной части.</p>
-      </div>
-    </section>
-  </main>
+    <main>
+        <section class="hero" style="padding: 50px 20px;">
+            <h1 class="hero-title" style="font-size: 2.5rem;">📝 Журнал прогресса</h1>
+            <p class="hero-subtitle">Ход выполнения проектной практики</p>
+        </section>
 
-  <footer>
-    © 2025 Лаборатория успеха
-  </footer>
+        <section>
+            <div class="container">
+                <h2 class="section-title">Прогресс выполнения</h2>
+                <div class="progress-container">
+                    <p><strong>Общий прогресс практики (72 часа):</strong></p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 100%;"></div>
+                    </div>
+                    <p style="text-align: center; margin-top: 10px;">✅ 100% — Все этапы выполнены</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="background: #e8f5e9;">
+            <div class="container">
+                <h2 class="section-title">Посты о ходе работы</h2>
+                <div class="journal-grid">
+                    <div class="journal-card">
+                        <div class="journal-date">📅 03-09 февраля 2025 | Неделя 1</div>
+                        <div class="journal-content">
+                            <h3>🔧 Настройка Git и подготовка к практике</h3>
+                            <p>Ознакомление с заданием на проектную практику. Изучены требования к репозиторию и структуре проекта. Установлен и настроен Git, изучены базовые команды: clone, commit, push, branch. Создан репозиторий на GitHub.</p>
+                            <p style="margin-top: 10px;"><strong>Затрачено часов:</strong> 10</p>
+                        </div>
+                    </div>
+
+                    <div class="journal-card">
+                        <div class="journal-date">📅 10-16 февраля 2025 | Неделя 2</div>
+                        <div class="journal-content">
+                            <h3>📝 Создание структуры и Markdown-документации</h3>
+                            <p>Изучен синтаксис Markdown. Написан основной README.md с информацией о практике. Создана структура папок репозитория в соответствии с требованиями: docs/, reports/, site/, src/, task/.</p>
+                            <p style="margin-top: 10px;"><strong>Затрачено часов:</strong> 8</p>
+                        </div>
+                    </div>
+
+                    <div class="journal-card">
+                        <div class="journal-date">📅 17-23 февраля 2025 | Неделя 3</div>
+                        <div class="journal-content">
+                            <h3>🎨 Начало разработки сайта</h3>
+                            <p>Изучены основы HTML и CSS. Разработан макет сайта. Созданы главная страница (index.html) и страница «О проекте» (about.html). Разработана система стилей в зелёных тонах.</p>
+                            <p style="margin-top: 10px;"><strong>Затрачено часов:</strong> 12</p>
+                        </div>
+                    </div>
+
+                    <div class="journal-card">
+                        <div class="journal-date">📅 24 февраля - 02 марта 2025 | Неделя 4</div>
+                        <div class="journal-content">
+                            <h3>🌐 Завершение сайта</h3>
+                            <p>Разработаны все страницы сайта: участники, журнал, ресурсы, заказчик, вариативная часть. Создан единый CSS-файл со стилями. Сайт стал полностью функциональным с навигацией между страницами.</p>
+                            <p style="margin-top: 10px;"><strong>Затрачено часов:</strong> 12</p>
+                        </div>
+                    </div>
+
+                    <div class="journal-card">
+                        <div class="journal-date">📅 03-09 марта 2025 | Неделя 5</div>
+                        <div class="journal-content">
+                            <h3>🐙 Вариативная часть: вклад в open source</h3>
+                            <p>Изучены открытые проекты на GitHub (freeCodeCamp, awesome-python, public-apis). Освоены механики fork, branch, commit, push, pull request. Выбран проект для вклада. Создан отчёт по вариативной части.</p>
+                            <p style="margin-top: 10px;"><strong>Затрачено часов:</strong> 12</p>
+                        </div>
+                    </div>
+
+                    <div class="journal-card">
+                        <div class="journal-date">📅 10-16 марта 2025 | Неделя 6</div>
+                        <div class="journal-content">
+                            <h3>📄 Оформление документации</h3>
+                            <p>Написана вся документация: practice_documentation.md, progress_log.md, partner_report.md, open_source_contribution.md. Подготовлены отчёты в папке reports/.</p>
+                            <p style="margin-top: 10px;"><strong>Затрачено часов:</strong> 10</p>
+                        </div>
+                    </div>
+
+                    <div class="journal-card">
+                        <div class="journal-date">📅 17-23 марта 2025 | Неделя 7</div>
+                        <div class="journal-content">
+                            <h3>✅ Финальная проверка и сдача</h3>
+                            <p>Подготовлен итоговый отчёт по практике. Выполнена финальная проверка всех файлов. Все изменения закоммичены и запушены в репозиторий. Отчёты загружены в LMS.</p>
+                            <p style="margin-top: 10px;"><strong>Затрачено часов:</strong> 8</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="section-title">Итоговый баланс времени</h2>
+                <div class="table-container" style="max-width: 600px; margin: 0 auto;">
+                    <table>
+                        <tr><th>Категория</th><th>Часов</th></tr>
+                        <tr><td>Git и репозиторий</td><td>5</td></tr>
+                        <tr><td>Markdown</td><td>5</td></tr>
+                        <tr><td>Создание сайта</td><td>24</td></tr>
+                        <tr><td>Вариативная часть</td><td>12</td></tr>
+                        <tr><td>Документация</td><td>10</td></tr>
+                        <tr><td>Отчёт</td><td>8</td></tr>
+                        <tr><td>Организационные работы</td><td>8</td></tr>
+                        <tr style="background: #2d6a2d; color: white;"><td><strong>ИТОГО</strong></td><td><strong>72</strong></td></tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Московский Политех | Проектная практика | Группа 251-338</p>
+        <p>Проект «Лаборатория успеха»</p>
+    </footer>
 </body>
 </html>
