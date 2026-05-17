@@ -1,58 +1,122 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Участник — Лаборатория успеха</title>
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаборатория успеха - Участник</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <div class="header-wrap">
-      <div class="logo-title">Участник проекта</div>
-      <div class="subtitle">Индивидуальное выполнение практики</div>
-      <nav>
-        <a href="index.html">Главная</a>
-        <a href="about.html">О проекте</a>
-        <a href="participant.html">Участник</a>
-        <a href="journal.html">Журнал</a>
-        <a href="resources.html">Ресурсы</a>
-        <a href="partner.html">Заказчик</a>
-        <a href="variable.html">Вариативная часть</a>
-      </nav>
-    </div>
-  </header>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>🎮 Лаборатория успеха</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О проекте</a></li>
+                <li><a href="participant.html">Участники</a></li>
+                <li><a href="journal.html">Журнал</a></li>
+                <li><a href="resources.html">Ресурсы</a></li>
+                <li><a href="partner.html">Заказчик</a></li>
+                <li><a href="variable.html">Вариативная часть</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main class="container">
-    <div class="card">
-      <div class="badge">Участник</div>
-      <h2>Информация</h2>
-      <div class="table-wrap">
-        <table>
-          <tr><th>Параметр</th><th>Содержание</th></tr>
-          <tr><td>ФИО</td><td>ВСТАВЬ СВОЁ ФИО</td></tr>
-          <tr><td>Группа</td><td>251-338</td></tr>
-          <tr><td>Факультет</td><td>Информационных технологий</td></tr>
-          <tr><td>Кафедра</td><td>Информатика и информационные технологии</td></tr>
-          <tr><td>Направление подготовки</td><td>Информационные системы и технологии</td></tr>
-          <tr><td>Профиль</td><td>Информационные системы и технологии</td></tr>
-          <tr><td>Формат работы</td><td>Индивидуально</td></tr>
-        </table>
-      </div>
-    </div>
+    <main>
+        <section class="hero" style="padding: 50px 20px;">
+            <h1 class="hero-title" style="font-size: 2.5rem;">👤 Участник</h1>
+            <p class="hero-subtitle">Информация о студенте, выполняющем практику</p>
+        </section>
 
-    <div class="card">
-      <h3>Личный вклад</h3>
-      <p>
-        Анализ материалов проекта, подготовка документации, создание структуры
-        репозитория, разработка сайта, оформление журнала хода работы
-        и подготовка материалов по вариативной части.
-      </p>
-    </div>
-  </main>
+        <section>
+            <div class="container">
+                <h2 class="section-title">Данные участника</h2>
+                <div class="table-container" style="max-width: 800px; margin: 0 auto;">
+                    <table>
+                        <tr>
+                            <th style="width: 40%;">Параметр</th>
+                            <th>Значение</th>
+                        </tr>
+                        <tr>
+                            <td><strong>ФИО</strong></td>
+                            <td><strong style="color: #2d6a2d; font-size: 1.1rem;">[ВСТАВЬТЕ ВАШЕ ФИО]</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Учебная группа</strong></td>
+                            <td>251-338</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Факультет</strong></td>
+                            <td>Информационных технологий</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Кафедра</strong></td>
+                            <td>Информатика и информационные технологии</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Направление подготовки</strong></td>
+                            <td>Информационные системы и технологии</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Профиль</strong></td>
+                            <td>Информационные системы и технологии</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Форма выполнения</strong></td>
+                            <td>Индивидуальная</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
 
-  <footer>
-    © 2025 Лаборатория успеха
-  </footer>
+        <section style="background: #e8f5e9;">
+            <div class="container">
+                <h2 class="section-title">Личный вклад в проект</h2>
+                <div class="feature-card" style="max-width: 800px; margin: 0 auto; text-align: left;">
+                    <ul style="font-size: 1.1rem; line-height: 2;">
+                        <li>✅ Изучение задания на проектную практику и его анализ</li>
+                        <li>✅ Настройка Git и создание репозитория на GitHub</li>
+                        <li>✅ Написание документации в формате Markdown</li>
+                        <li>✅ Разработка статического веб-сайта на HTML/CSS</li>
+                        <li>✅ Выполнение вариативной части (вклад в open source)</li>
+                        <li>✅ Подготовка итогового отчёта по практике</li>
+                        <li>✅ Оформление всех материалов в соответствии с требованиями</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="section-title">Освоенные компетенции</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>🐙 Git</h3>
+                        <p>clone, commit, push, branch, fork, pull request</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>📝 Markdown</h3>
+                        <p>Оформление документации, таблицы, списки, заголовки</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🌐 HTML/CSS</h3>
+                        <p>Создание многостраничного сайта с адаптивным дизайном</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🤝 GitHub</h3>
+                        <p>Работа с открытыми проектами, contribution</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Московский Политех | Проектная практика | Группа 251-338</p>
+        <p>Проект «Лаборатория успеха»</p>
+    </footer>
 </body>
 </html>
