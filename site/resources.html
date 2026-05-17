@@ -8,56 +8,74 @@
 </head>
 <body>
   <header>
-    <h1>Полезные ресурсы</h1>
-    <p>Материалы для выполнения проектной практики</p>
-    <nav>
-      <a href="index.html">Главная</a>
-      <a href="about.html">О проекте</a>
-      <a href="participant.html">Участник</a>
-      <a href="journal.html">Журнал</a>
-      <a href="resources.html">Ресурсы</a>
-      <a href="partner.html">Заказчик</a>
-      <a href="variable.html">Вариативная часть</a>
-    </nav>
+    <div class="header-wrap">
+      <div class="logo-title">Ресурсы</div>
+      <div class="subtitle">Полезные материалы по проекту и практике</div>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О проекте</a>
+        <a href="participant.html">Участник</a>
+        <a href="journal.html">Журнал</a>
+        <a href="partner.html">Заказчик</a>
+        <a href="variable.html">Вариативная часть</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="card">
-      <h2>Материалы по веб-разработке</h2>
-      <ul>
-        <li>HTML — основы разметки веб-страниц</li>
-        <li>CSS — оформление и стилизация страниц</li>
-        <li>Markdown — оформление документации</li>
-        <li>Git — система контроля версий</li>
-      </ul>
-    </section>
+  <main class="container">
+    <div class="grid-2">
+      <section class="card">
+        <span class="badge">Материалы проекта</span>
+        <h3>Основные документы</h3>
+        <ul>
+          <li>паспорт проекта «Лаборатория успеха»;</li>
+          <li>отчёт по проектной деятельности;</li>
+          <li>задание на проектную практику;</li>
+          <li>шаблон итогового отчёта.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <span class="badge">Полезные темы</span>
+        <h3>Что важно для понимания проекта</h3>
+        <ul>
+          <li>геймификация в образовании;</li>
+          <li>игровые механики и прототипирование;</li>
+          <li>организация проектной документации;</li>
+          <li>основы open-source взаимодействия.</li>
+        </ul>
+      </section>
+    </div>
 
     <section class="card">
-      <h2>Материалы проекта</h2>
-      <ul>
-        <li>Паспорт проекта «Лаборатория успеха»</li>
-        <li>Отчёт по проектной деятельности</li>
-        <li>Шаблон отчёта по проектной практике</li>
-        <li>Текст задания на проектную практику</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>Полезные направления для изучения</h2>
-      <ul>
-        <li>Геймификация в образовании</li>
-        <li>Игровые механики и проектирование игр</li>
-        <li>Проектная документация</li>
-        <li>Open-source разработка</li>
-      </ul>
+      <h3>Технические ресурсы для практики</h3>
+      <table>
+        <tr>
+          <th>Тема</th>
+          <th>Назначение</th>
+        </tr>
+        <tr>
+          <td>Git</td>
+          <td>Контроль версий и работа с репозиторием</td>
+        </tr>
+        <tr>
+          <td>Markdown</td>
+          <td>Оформление документации</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Создание структуры страниц сайта</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Оформление и визуальный стиль сайта</td>
+        </tr>
+      </table>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Лаборатория успеха</p>
+    © 2025 Лаборатория успеха
   </footer>
 </body>
 </html>
-
-
-
