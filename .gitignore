@@ -18,16 +18,15 @@ Thumbs.db
 *.tmp
 *.log
 *.bak
-*.~lock*
 
-# Reports (keep markdown, ignore generated binary)
+# Reports (бинарные файлы не сохраняем в Git)
 *.docx
 *.pdf
 !reports/*.md
 
-# Node modules (if any)
+# Node modules
 node_modules/
 
-# Build artifacts
+# Build
 dist/
 build/
