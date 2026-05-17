@@ -1,54 +1,133 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ресурсы — Лаборатория успеха</title>
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаборатория успеха - Ресурсы</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <div class="header-wrap">
-      <div class="logo-title">Ресурсы</div>
-      <div class="subtitle">Полезные материалы проекта и практики</div>
-      <nav>
-        <a href="index.html">Главная</a>
-        <a href="about.html">О проекте</a>
-        <a href="participant.html">Участник</a>
-        <a href="journal.html">Журнал</a>
-        <a href="resources.html">Ресурсы</a>
-        <a href="partner.html">Заказчик</a>
-        <a href="variable.html">Вариативная часть</a>
-      </nav>
-    </div>
-  </header>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>🎮 Лаборатория успеха</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О проекте</a></li>
+                <li><a href="participant.html">Участники</a></li>
+                <li><a href="journal.html">Журнал</a></li>
+                <li><a href="resources.html">Ресурсы</a></li>
+                <li><a href="partner.html">Заказчик</a></li>
+                <li><a href="variable.html">Вариативная часть</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main class="container">
-    <div class="grid-2">
-      <div class="card">
-        <h3>Материалы проекта</h3>
-        <ul>
-          <li>паспорт проекта;</li>
-          <li>отчёт по проектной деятельности;</li>
-          <li>задание на проектную практику;</li>
-          <li>шаблон итогового отчёта.</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Технические темы</h3>
-        <ul>
-          <li>Git;</li>
-          <li>Markdown;</li>
-          <li>HTML;</li>
-          <li>CSS;</li>
-          <li>open-source практика.</li>
-        </ul>
-      </div>
-    </div>
-  </main>
+    <main>
+        <section class="hero" style="padding: 50px 20px;">
+            <h1 class="hero-title" style="font-size: 2.5rem;">📚 Полезные ресурсы</h1>
+            <p class="hero-subtitle">Материалы для изучения и ссылки на партнёров</p>
+        </section>
 
-  <footer>
-    © 2025 Лаборатория успеха
-  </footer>
+        <section>
+            <div class="container">
+                <h2 class="section-title">🎯 Материалы проекта «Лаборатория успеха»</h2>
+                <div class="resources-list">
+                    <div class="resource-card">
+                        <h3>📊 Паспорт проекта</h3>
+                        <p>Основной документ с описанием целей, задач и результатов проекта</p>
+                        <p><strong>Заказчик:</strong> ITE Group</p>
+                        <p><strong>Тип проекта:</strong> Стратегический</p>
+                    </div>
+                    <div class="resource-card">
+                        <h3>📖 Отчёт по проекту</h3>
+                        <p>Подробное описание выполненной работы, игровых механик и результатов</p>
+                        <p><strong>Содержит:</strong> Описание настольной игры, правила, этапы реализации</p>
+                    </div>
+                    <div class="resource-card">
+                        <h3>🎲 Настольная игра</h3>
+                        <p>Экономическая стратегия о развитии компании</p>
+                        <p><strong>Время игры:</strong> 90 мин | <strong>Игроков:</strong> 2-4</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background: #e8f5e9;">
+            <div class="container">
+                <h2 class="section-title">🤝 Организация-партнёр</h2>
+                <div class="resources-list">
+                    <div class="resource-card">
+                        <h3>🏢 ITE Group</h3>
+                        <p>Крупная компания, специализирующаяся в области информационных технологий и организации мероприятий. Заказчик проекта «Лаборатория успеха».</p>
+                        <p><strong>Контактное лицо:</strong> Нагорнова Ирина Викторовна</p>
+                        <p><strong>Роль в проекте:</strong> Постановка задач, предоставление требований, оценка результатов</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="section-title">💻 Технические инструменты</h2>
+                <div class="resources-list">
+                    <div class="resource-card">
+                        <h3>🐙 Git</h3>
+                        <p>Система контроля версий</p>
+                        <a href="https://git-scm.com/book/ru/v2" target="_blank">Официальная документация Git →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>📝 Markdown</h3>
+                        <p>Язык разметки для документации</p>
+                        <a href="https://ru.hexlet.io/lesson_filters/markdown" target="_blank">Уроки по Markdown →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>🌐 HTML/CSS</h3>
+                        <p>Основы веб-вёрстки</p>
+                        <a href="https://developer.mozilla.org/ru/docs/Learn_web_development" target="_blank">MDN Web Docs →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>🎨 GitHub</h3>
+                        <p>Платформа для хостинга репозиториев</p>
+                        <a href="https://skillbox.ru/media/code/chto_takoe_git_obyasnyaem_na_skhemakh/" target="_blank">Что такое Git (объяснение на схемах) →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background: #e8f5e9;">
+            <div class="container">
+                <h2 class="section-title">📚 Полезные статьи и руководства</h2>
+                <div class="resources-list">
+                    <div class="resource-card">
+                        <h3>Введение в CSS вёрстку</h3>
+                        <a href="https://developer.mozilla.org/ru/docs/Learn_web_development/Core/CSS_layout/Introduction" target="_blank">developer.mozilla.org →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>DevTools для «чайников»</h3>
+                        <a href="https://habr.com/ru/articles/548898/" target="_blank">habr.com →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>Основы HTML</h3>
+                        <a href="https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content" target="_blank">MDN: Создание контента →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>Doka Guide</h3>
+                        <a href="https://doka.guide/" target="_blank">doka.guide →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>Бесплатный курс по Git на Hexlet</h3>
+                        <a href="https://ru.hexlet.io/courses/intro_to_git" target="_blank">hexlet.io →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Московский Политех | Проектная практика | Группа 251-338</p>
+        <p>Проект «Лаборатория успеха»</p>
+    </footer>
 </body>
 </html>
