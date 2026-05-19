@@ -19,14 +19,5 @@ Thumbs.db
 *.log
 *.bak
 
-# Reports (бинарные файлы не сохраняем в Git)
-*.docx
-*.pdf
-!reports/*.md
-
 # Node modules
 node_modules/
-
-# Build
-dist/
-build/
